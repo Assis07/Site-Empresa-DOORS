@@ -1,0 +1,190 @@
+/*Natã*/
+*{
+    margin: 0px;
+}
+#imagemsus1{
+    width: 332px;
+    height: 361px;
+    margin: 0px auto;
+    
+}
+#imagensarvore{
+   position: relative;
+   width: 500px;
+   height: 250px;
+   margin: 0px auto;
+}
+#imagemsus{
+    width: 700px;
+    height: 400px;
+    margin: 0px auto;
+    padding-top: 30px;
+    
+}
+#fundo{
+   
+    background-color: #338c00;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    margin: 0px;
+    background-attachment: fixed;
+    padding-top: 100px;
+    
+   
+}
+body,html{
+    
+}
+#fundoexterno{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#Textosust{
+    height: 50px;
+    width: 315px;
+    margin: 0px auto;
+    font-size: 22px;
+    color: #000000;
+    
+}
+#textosus{
+   height: 650px;
+   width: 700px;
+   margin: 0px auto;
+   font-size: 22px;
+}
+#frase{
+   height: 200px;
+   width: 750px;
+   font-size: 30px;
+   margin: 0px auto;
+   padding-top: 100px;
+   
+   
+}
+/*Fim*/
+#organizatopom{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    background-color: #338c00;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    margin: 0px;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+#logo{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 10px auto;
+    transform:perspective(400px) rotateX(0deg);
+    transition: 1s;
+}
+#logo:hover{
+    transform:perspective(400px) rotateX(360deg);
+}
+nav{
+    position: relative;
+    width: 960px;
+    height: 70px;
+    margin: 0px auto;
+}
+nav a{
+    color: black;
+    text-decoration:  none;
+    font-size: 20px;
+    margin: 5px auto;
+    margin-right: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+
+
+}
+nav a:hover{
+
+}
+
+.hvr-radial-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    background:  #ccffcc;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-radial-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:  #339900;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+    color:  black;
+}
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+#organizarodape{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin: 0px auto;
+   
+    background-color: #338c00;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+ 
+    background-attachment: fixed;
+    padding-top: 10px;
+}
+.rede{
+   position: relative;
+   width: 70px;
+   height: 70px;
+   float: right;
+  margin: 0px auto;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+#texto1{
+   position: relative;
+   width: 500px;
+   height: 70px; 
+   font-size: 20px;
+   float: left;
+   margin-left: 20px;
+   margin-top: 50px;
+}
+#banderinhas{
+   position: relative;
+   width: 110px;
+   height:35px;  
+  margin: 0px auto;
+  margin-top: 50px;
+}
+#banderinhas a{
+    text-decoration: none;
+}
